@@ -5,15 +5,16 @@ public class PlayerController : MonoBehaviour
 {
 	Vector3 movement;
 	Vector3 cameraMovement;
+	public Camera minimap;
 
 	void Start() {
-		
 	}
 
 	void Update() {
 
 		MovePlayer();
 		UpdateCamera();
+		UpdateMinimap();
 
 	}
 
@@ -45,5 +46,9 @@ public class PlayerController : MonoBehaviour
 			cameraMovement.y += 1;
 
 		Camera.main.transform.position = new Vector3( cameraMovement.x, cameraMovement.y, -10 );
+	}
+
+	void UpdateMinimap() {
+		minimap.transform.position = new Vector3( this.transform.position.x, this.transform.position.y, -10 );
 	}
 }
