@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 825356817c3ae4d98915e7332ad649d7
-timeCreated: 1451316497
+timeCreated: 1451335463
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,10 +9,14 @@ TextureImporter:
     21300004: gorouge_dev_2
     21300006: gorouge_dev_3
     21300008: gorouge_dev_4
+    21300010: gorouge_dev_5
+    21300012: gorouge_dev_6
+    21300014: gorouge_dev_7
+    21300016: gorouge_dev_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -32,7 +36,7 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 2048
+  maxTextureSize: 512
   textureSettings:
     filterMode: 0
     aniso: 16
@@ -49,7 +53,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 31
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -59,7 +63,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -73,8 +77,8 @@ TextureImporter:
     - name: gorouge_dev_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 33
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -88,8 +92,8 @@ TextureImporter:
     - name: gorouge_dev_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 66
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -103,8 +107,8 @@ TextureImporter:
     - name: gorouge_dev_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 99
+        y: 1
         width: 32
         height: 32
       alignment: 0
@@ -118,8 +122,8 @@ TextureImporter:
     - name: gorouge_dev_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 132
+        y: 1
         width: 32
         height: 32
       alignment: 0

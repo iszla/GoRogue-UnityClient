@@ -3,7 +3,7 @@ using System.Collections;
 using SimpleJSON;
 
 [RequireComponent( typeof(LoadWorld) )]
-[RequireComponent( typeof(Tile) )]
+[RequireComponent( typeof(Assets) )]
 public class WorldController : MonoBehaviour
 {
 	bool worldBuilt;
@@ -30,7 +30,7 @@ public class WorldController : MonoBehaviour
 				tile.name = "Tile_" + x + "_" + y;
 				tile.transform.position = new Vector3( x, y, 0 );
 				tile.transform.SetParent( this.transform, true );
-				tile.AddComponent<SpriteRenderer>().sprite = Tile.tileSprites[ (TileType)LoadWorld.worldData.tiles[ x, y ] ];
+				tile.AddComponent<SpriteRenderer>().sprite = Assets.tileSprites[ (TileType)LoadWorld.worldData.tiles[ x, y ] ];
 
 				if ( LoadWorld.worldData.tiles[ x, y ] == 1 )
 					tile.AddComponent<BoxCollider2D>();

@@ -11,7 +11,7 @@ public enum TileType
 	Land
 }
 
-public class Tile : MonoBehaviour
+public class Assets : MonoBehaviour
 {
 	public static Dictionary<TileType, Sprite> tileSprites;
 	public Sprite DeepWater;
